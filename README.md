@@ -7,4 +7,6 @@ wget --no-check-certificate "https://raw.githubusercontent.com/alkhanet26/net/ma
 ```
 
 # FW23
+```
 wget --no-check-certificate "https://raw.githubusercontent.com/alkhanet26/net/main/fw23.ipk" -O /temp/fw23.ipk && chmod +x /tmp/fw23.ipk && cd /tmp && opkg update && opkg install *.ipk
+```
